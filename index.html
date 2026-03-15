@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Makea Martti</title>
+  <meta name="description" content="Makea Martti — Kulttibandi vailla seuraajia">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="nav-logo nav-logo--hidden">Makea Martti</a>
+      <button class="mobile-menu-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active" data-i18n="nav_home">Etusivu</a></li>
+        <li><a href="musiikki.html" data-i18n="nav_music">Musiikki</a></li>
+        <li><a href="galleria.html" data-i18n="nav_gallery">Galleria</a></li>
+        <li><a href="folklore.html" data-i18n="nav_folklore">Folklore</a></li>
+        <li>
+          <div class="lang-switch">
+            <button data-lang="fi" class="active">FI</button>
+            <button data-lang="en">EN</button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="assets/gallery/bandikuva.jpg" alt="Makea Martti">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Makea Martti</h1>
+      <p class="hero-tagline" data-i18n="hero_tagline">Kulttibandi vailla seuraajia</p>
+      <p class="hero-description" data-i18n="hero_description">Yhdistäen erilaisia musiikkityylejä ja ammentaen niin elokuvista kuin ikiaikaisista kansantarinoista, Makea Martti kutsuu sinut maailmaan, jossa lepattavien liekkien valo ei pärjää kaiken nielevälle pimeydelle.</p>
+      <div class="hero-social">
+        <a href="https://open.spotify.com/artist/2KjOn1rGZSPtJLMpRvnBHX" target="_blank" rel="noopener">Spotify</a>
+        <a href="https://tidal.com/artist/68189849/u" target="_blank" rel="noopener">Tidal</a>
+        <a href="https://www.youtube.com/@MakeaMartti" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.instagram.com/makea_martti/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Band members -->
+  <section class="content-section">
+    <div class="content-narrow">
+      <div class="crow-decoration reveal">
+        <img src="assets/varis.png" alt="Varis">
+      </div>
+
+      <h2 class="folklore-section-title" style="text-align:center;" data-i18n="members_title">Bändi</h2>
+
+      <div class="members-grid reveal">
+        <div class="member-card">
+          <p class="member-name">Martti Lauri</p>
+          <p class="member-role" data-i18n="member_lauri_role">laulu, kitara ja koskettimet</p>
+        </div>
+        <div class="member-card">
+          <p class="member-name">Martti Daniel</p>
+          <p class="member-role" data-i18n="member_daniel_role">rummut, sähkökitara ja koskettimet</p>
+        </div>
+        <div class="member-card">
+          <p class="member-name">Martti Markus</p>
+          <p class="member-role" data-i18n="member_markus_role">sello, sähköhaitari ja koskettimet</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-social">
+      <a href="https://open.spotify.com/artist/2KjOn1rGZSPtJLMpRvnBHX" target="_blank" rel="noopener">Spotify</a>
+      <a href="https://tidal.com/artist/68189849/u" target="_blank" rel="noopener">Tidal</a>
+      <a href="https://www.youtube.com/@MakeaMartti" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.instagram.com/makea_martti/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <p class="footer-copy" data-i18n="footer_copy">Makea Martti 2025</p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+</body>
+</html>

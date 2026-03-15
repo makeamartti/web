@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galleria — Makea Martti</title>
+  <meta name="description" content="Makea Martti — Galleria">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="nav-logo">Makea Martti</a>
+      <button class="mobile-menu-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav_home">Etusivu</a></li>
+        <li><a href="musiikki.html" data-i18n="nav_music">Musiikki</a></li>
+        <li><a href="galleria.html" class="active" data-i18n="nav_gallery">Galleria</a></li>
+        <li><a href="folklore.html" data-i18n="nav_folklore">Folklore</a></li>
+        <li>
+          <div class="lang-switch">
+            <button data-lang="fi" class="active">FI</button>
+            <button data-lang="en">EN</button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <h1 class="page-title" data-i18n="gallery_title">Galleria</h1>
+  </div>
+
+  <!-- Gallery Grid -->
+  <section class="content-section">
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/bandikuva.jpg" alt="Makea Martti" loading="lazy">
+        <div class="photo-credit">Kuva: Tuukka Ervasti</div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/keikka3.jpg" alt="Makea Martti live" loading="lazy">
+        <div class="photo-credit">Kuva: Kara Sadeniemi</div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/keikka1.jpg" alt="Makea Martti live" loading="lazy">
+        <div class="photo-credit">Kuva: Kara Sadeniemi</div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/bir.jpg" alt="Bir Başka studio" loading="lazy">
+      </div>
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/keikka2.jpg" alt="Makea Martti live" loading="lazy">
+        <div class="photo-credit">Kuva: Kara Sadeniemi</div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/keikka4.jpg" alt="Makea Martti live" loading="lazy">
+        <div class="photo-credit">Kuva: Kara Sadeniemi</div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/pusula1.jpg" alt="Kurssikeskus, Pusula" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img src="" alt="Enlarged photo">
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-social">
+      <a href="https://open.spotify.com/artist/2KjOn1rGZSPtJLMpRvnBHX" target="_blank" rel="noopener">Spotify</a>
+      <a href="https://tidal.com/artist/68189849/u" target="_blank" rel="noopener">Tidal</a>
+      <a href="https://www.youtube.com/@MakeaMartti" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.instagram.com/makea_martti/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <p class="footer-copy" data-i18n="footer_copy">Makea Martti 2025</p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+</body>
+</html>
