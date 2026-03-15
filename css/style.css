@@ -669,8 +669,10 @@ img { max-width: 100%; height: auto; display: block; }
 .footer-social {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
   margin-bottom: 1.5rem;
+  padding: 0 1rem;
 }
 
 .footer-social a {
