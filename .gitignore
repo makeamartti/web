@@ -9,9 +9,9 @@ node_modules/
 *.mp3
 !assets/audio/*.mp3
 
-# Duplicate assets at root level
-pimeaa_ainetta_etukansi.png
-pimeaa_ainetta_takakansi.png
-tausta-tekstuuri.jpeg
-varis.png
-varis_logo.png
+# Duplicate assets at root level (not in assets/ folder)
+/pimeaa_ainetta_etukansi.png
+/pimeaa_ainetta_takakansi.png
+/tausta-tekstuuri.jpeg
+/varis.png
+/varis_logo.png
