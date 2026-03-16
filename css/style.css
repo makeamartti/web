@@ -824,7 +824,7 @@ img { max-width: 100%; height: auto; display: block; }
   position: relative;
   max-width: 500px;
   margin: 4rem auto;
-  opacity: 0.25;
+  opacity: 0.4;
   filter: grayscale(100%) contrast(1.2);
 }
 
