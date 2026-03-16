@@ -17,6 +17,7 @@ const translations = {
     // Music
     music_title: 'Musiikki',
     album_by: 'Makea Martti',
+    vinyl_notice: 'Vinyyli saatavilla — 35 €',
     // Gallery
     gallery_title: 'Galleria',
     // Folklore
@@ -97,6 +98,7 @@ const translations = {
     // Music
     music_title: 'Music',
     album_by: 'Makea Martti',
+    vinyl_notice: 'Vinyl available — €35',
     // Gallery
     gallery_title: 'Gallery',
     // Folklore

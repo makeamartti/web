@@ -444,6 +444,14 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--text-primary);
 }
 
+.vinyl-notice {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  letter-spacing: 0.03em;
+}
+
 .tracklist {
   list-style: none;
 }
@@ -695,6 +703,21 @@ img { max-width: 100%; height: auto; display: block; }
   font-size: 0.75rem;
   color: var(--text-muted);
   letter-spacing: 0.1em;
+}
+
+.footer-email {
+  margin-top: 0.75rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+}
+
+.footer-email a {
+  color: var(--text-muted);
+  transition: color 0.3s;
+}
+
+.footer-email a:hover {
+  color: var(--text-secondary);
 }
 
 /* --- Responsive --- */
