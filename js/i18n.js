@@ -12,6 +12,7 @@ const translations = {
     member_lauri_role: 'laulu, kitara ja koskettimet',
     member_daniel_role: 'rummut, sähkökitara ja koskettimet',
     member_markus_role: 'sello, sähköhaitari ja koskettimet',
+    album_promo: 'Pimeää ainetta on julkaistu — jos tiesit odottaa, tiesit jo liikaa. Levy, jota ei voi selittää mutta jonka voi omistaa: vinyyli on nyt saatavilla 35 eurolla. Liity niihin, jotka eivät liity mihinkään.',
     photo_credit: 'Kuva: Tuukka Ervasti',
     // Music
     music_title: 'Musiikki',
@@ -91,6 +92,7 @@ const translations = {
     member_lauri_role: 'vocals, guitar & keys',
     member_daniel_role: 'drums, electric guitar & keys',
     member_markus_role: 'cello, electric accordion & keys',
+    album_promo: 'Pimeää ainetta has been released — if you knew to wait, you already knew too much. An album that cannot be explained but can be owned: the vinyl is now available for 35 euros. Join those who don\'t join anything.',
     photo_credit: 'Photo: Tuukka Ervasti',
     // Music
     music_title: 'Music',

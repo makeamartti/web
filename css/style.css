@@ -8,7 +8,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg-primary: #0a0a08;
+  --bg-primary: #161614;
   --bg-secondary: #111110;
   --bg-card: #1a1a17;
   --text-primary: #e8e4dc;
@@ -763,6 +763,37 @@ img { max-width: 100%; height: auto; display: block; }
     padding-top: 100px;
     padding-bottom: 40px;
   }
+}
+
+/* --- Album promo --- */
+.album-promo {
+  max-width: 420px;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.album-promo-cover {
+  max-width: 320px;
+  margin: 0 auto 2rem;
+}
+
+.album-promo-cover img {
+  width: 100%;
+  border: 1px solid var(--border);
+  opacity: 0.85;
+  transition: opacity 0.4s ease;
+}
+
+.album-promo-cover img:hover {
+  opacity: 1;
+}
+
+.album-promo-text {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  font-style: italic;
 }
 
 /* --- Crow decoration --- */
