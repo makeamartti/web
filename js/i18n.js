@@ -55,8 +55,6 @@ const translations = {
     glossary_ramazotti_attr: 'Martti Lauri',
     glossary_migraatio_term: 'Marttien yöllinen migraatio',
     glossary_migraatio_def: 'Usein yli 10h soittosessioiden jälkeen kotiinpaluu ja kulkuvälineiden pyydystäminen on hankalaa ja näyttäytyy vaikeasti rakentuneen lajin migraationa \u2013 kuin kilpikonnan poikaset, jotka kaivautuvat hiekasta keskiyöllä ja vaaroja uhmaten etsivät rantaviivaa.',
-    glossary_migraatio_ext: 'Useimmilla nisäkkäillä aivot ovat kehittyneet suojelemaan eläintä ulkopuoliselta saalistajalta. Martilla ne ovat kehittyneet suojelemaan marttia itseltään. Näin omat soittimet saatetaan kiinnittää nauhoilla kehoon, etteivät ne unohtuisi tai hukkuisi kesken vaarallisen taipaleen (naru-koulukunta).',
-    glossary_migraatio_ext2: 'Syvimpien aivokerrosten eloonjäämisvietit auttaa selviytymään kotiin siinä vaiheessa kun muut aistit ovat jo pettäneet. "..Tämä martti yrittää liehitellä ohikulkevia autoja sumentuneella näkökyvyllään, toivoen jonkun niistä olevan taksi (seitsemän hunnun tanssi)..Tämä martti taas on piilottanut ruokaa tulevan varalle, mutta ei tunnu löytävän ruokapiiloa..".',
     glossary_migraatio_attr: 'Martti Lauri',
     glossary_darkjustin_term: 'Dark Justin',
     glossary_darkjustin_def: 'Uusi moderni rytmikomppi, jota Markus tuottaa synasta ja jonka päälle soitettuna varhais-marttien kitarafolk uusiutuu.',
@@ -129,8 +127,6 @@ const translations = {
     glossary_ramazotti_attr: 'Martti Lauri',
     glossary_migraatio_term: 'Martian Nocturnal Migration',
     glossary_migraatio_def: 'Often after 10+ hour playing sessions, the return home and catching transportation is difficult and appears as the migration of a poorly constructed species \u2014 like baby turtles digging out of sand at midnight, braving dangers to find the shoreline.',
-    glossary_migraatio_ext: 'In most mammals, the brain has evolved to protect the animal from external predators. In the Martti, it has evolved to protect the Martti from itself. Thus instruments may be attached to the body with tape so they won\'t be forgotten or lost during the dangerous journey (the rope school).',
-    glossary_migraatio_ext2: 'The survival instincts of the deepest brain layers help one get home at the point when other senses have already failed. "..This Martti tries to flirt with passing cars with his blurred vision, hoping one of them is a taxi (dance of the seven veils)..This other Martti has hidden food for the future but can\'t seem to find the food cache..".',
     glossary_migraatio_attr: 'Martti Lauri',
     glossary_darkjustin_term: 'Dark Justin',
     glossary_darkjustin_def: 'A new modern rhythm comp that Markus produces from a synth, over which the early Marttis\' guitar folk is renewed.',
@@ -200,8 +196,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // Album flip card touch support
   const flipCard = document.querySelector('.album-flip-card');
   if (flipCard) {
+    let flipAngle = 0;
+    const flipInner = flipCard.querySelector('.album-flip-inner');
     flipCard.addEventListener('click', () => {
-      flipCard.classList.toggle('flipped');
+      flipAngle += 180;
+      flipInner.style.transform = 'rotateY(' + flipAngle + 'deg)';
     });
   }
 

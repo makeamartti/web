@@ -387,13 +387,9 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 @media (hover: hover) {
-  .album-flip-card:hover .album-flip-inner {
+  .album-flip-card:not(.js-controlled):hover .album-flip-inner {
     transform: rotateY(180deg);
   }
-}
-
-.album-flip-card.flipped .album-flip-inner {
-  transform: rotateY(180deg);
 }
 
 .album-flip-front,
