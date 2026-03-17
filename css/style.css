@@ -386,7 +386,13 @@ img { max-width: 100%; height: auto; display: block; }
   transform-style: preserve-3d;
 }
 
-.album-flip-card:hover .album-flip-inner {
+@media (hover: hover) {
+  .album-flip-card:hover .album-flip-inner {
+    transform: rotateY(180deg);
+  }
+}
+
+.album-flip-card.flipped .album-flip-inner {
   transform: rotateY(180deg);
 }
 

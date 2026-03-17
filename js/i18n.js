@@ -197,6 +197,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Album flip card touch support
+  const flipCard = document.querySelector('.album-flip-card');
+  if (flipCard) {
+    flipCard.addEventListener('click', () => {
+      flipCard.classList.toggle('flipped');
+    });
+  }
+
   // Scroll reveal
   const reveals = document.querySelectorAll('.reveal');
   if (reveals.length) {
