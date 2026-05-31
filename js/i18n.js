@@ -84,7 +84,7 @@ const translations = {
     nav_folklore: 'Folklore',
     // Home
     hero_tagline: 'Cult band with no followers',
-    hero_description: 'Blending various musical genres and drawing from the world of cinema and ancient folklore alike, Makea Martti invites you to join into a world where flickering flames illuminate tales of old.',
+    hero_description: 'Blending various musical genres and drawing from the world of cinema and ancient folklore alike, Makea Martti invites you into a world where flickering flames give way to the all-consuming dark.',
     members_title: 'The Band',
     member_lauri_role: 'vocals, guitar & keys',
     member_daniel_role: 'drums, electric guitar & keys',
