@@ -14,6 +14,7 @@ const translations = {
     member_markus_role: 'sello, sähköhaitari ja koskettimet',
     album_promo: 'Pimeää ainetta on julkaistu — jos tiesit odottaa, tiesit jo liikaa. Levy, jota ei voi selittää mutta jonka voi omistaa: vinyyli on nyt saatavilla 35 eurolla. Liity niihin, jotka eivät liity mihinkään.',
     photo_credit: 'Kuva: Tuukka Ervasti',
+    photo_credit_kara: 'Kuva: Kara Sadeniemi',
     // Music
     music_title: 'Musiikki',
     album_by: 'Makea Martti',
@@ -91,6 +92,7 @@ const translations = {
     member_markus_role: 'cello, electric accordion & keys',
     album_promo: 'Pimeää ainetta has been released — if you knew to wait, you already knew too much. An album that cannot be explained but can be owned: the vinyl is now available for 35 euros. Join those who don\'t join anything.',
     photo_credit: 'Photo: Tuukka Ervasti',
+    photo_credit_kara: 'Photo: Kara Sadeniemi',
     // Music
     music_title: 'Music',
     album_by: 'Makea Martti',
